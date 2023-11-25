@@ -15,12 +15,12 @@
             <a href="page1.html"><img src="Images/Black_And_White_Modern_Vintage_Retro_Brand_Logo-removebg-preview.png"></a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="Homepage.php">Home</a></li>
-                    <li><a href="aboutpage.php">About</a></li>
-                    <li><a href="Resources.php">Resources</a></li>
-                    <li><a href="Blogs.php">Blog</a></li>
-                    <li><a href="Contact1.php">Contact</a></li>
-                    <li><a href="login_form.php">Login/Signup</a></li>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                    <li><a href="Resources.html">Resources</a></li>
+                    <li><a href="Blogs.html">Blog</a></li>
+                    <li><a href="Contact1.html">Contact</a></li>
+                    <li><a href="login_form.html">Login/Signup</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,7 +39,7 @@
                     to find any therapist outside without spending huge sum of money. In INTI, there might be a high demand for mental health
                     services. However, there is a lack of accessible online applications that can offer the necessary assistance. It remains difficult
                     to find and match individuals with the right mental health resources.</p>
-                    <a href="Resources.php" class="hero-btn grey-btn">Explore resources</a>
+                    <a href="Resources.html" class="hero-btn grey-btn">Explore resources</a>
             </div>
             <div class="about-col">
                 <img src="images/company.jpeg">
@@ -51,7 +51,7 @@
     <section class="CTA">
         <h1>Feel free to know more about us<br />Anywhere and 
         Anytime</h1>
-        <a href="Contact1.php" class="hero-btn">Contact us</a>
+        <a href="Contact1.html" class="hero-btn">Contact us</a>
     </section>
 
 </body>
