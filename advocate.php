@@ -15,12 +15,12 @@
             <a href="page1.html"><img src="Images/logo.png"></a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="Homepage.php">Home</a></li>
-                    <li><a href="aboutpage.php">About</a></li>
-                    <li><a href="Resources.php">Resources</a></li>
-                    <li><a href="Blogs.php">Blog</a></li>
-                    <li><a href="Contact1.php">Contact</a></li>
-                    <li><a href="login_form.php">Login/Signup</a></li>
+                    <li><a href="Homepage.html">Home</a></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                    <li><a href="Resources.html">Resources</a></li>
+                    <li><a href="Blogs.html">Blog</a></li>
+                    <li><a href="Contact1.html">Contact</a></li>
+                    <li><a href="login_form.html">Login/Signup</a></li>
                 </ul>
             </div>
         </nav>
@@ -140,7 +140,7 @@
     <section class="CTA">
         <h1>Feel free to know more about us<br />Anywhere and 
         Anytime</h1>
-        <a href="Contact1.php" class="hero-btn">Contact us</a>
+        <a href="Contact1."html="hero-btn">Contact us</a>
     </section>
 
 </body>
