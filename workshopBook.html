@@ -1,35 +1,4 @@
-<?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbanme = "advoBooking";
-$conn = new mysqli($servername,$username,$password,$dbanme);
-
-if($conn->connect_error){
-    die("Connection Failed:" .$conn->connect_error);
-
-}
-//Handle form submission
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $phone_number = $_POST["phone-number"];
-    $workshop = $_POST["workshop"];
-
-    //prepare and execute the database insertion
-    $sql = "INSERT INTO `workbook`(`name`, `email`, `phone_number`, `workshop`)
-     VALUES ('$name','$email','$phone_number','$workshop')";
-
-     if($conn->query($sql) === TRUE){
-        echo "Booking Successfully";
-        exit();
-     }else{
-        echo "Error: " .$sql . "<br>" .$conn->error; 
-     }
-}
-$conn->close();
-?>
 
 <!DOCTYPE html1>
 <html lang="en">
