@@ -1,28 +1,3 @@
-<?php
-
-try{
-    $db = new mysqli ("localhost", "root", "", "contact_db");
-
-} catch (Exception $exc){
-    echo $exc->getTraceAsString();
-}
-
-if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['msg'])){
-
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $msg = $_POST['msg'];
-
-    $is_insert = $db->query("INSERT INTO `data`(`name`, `email`, `Message`) VALUES ('$name','$email','$msg')");
-
-    if($is_insert == TRUE){
-        echo "<h2>Thanks, your request is submitted.</h2>";
-        exit();
-    }
-
-}
-?>
-
 
 <!DOCTYPE html1>
 <html>
