@@ -1,35 +1,4 @@
-<?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbanme = "advoBooking";
-$conn = new mysqli($servername,$username,$password,$dbanme);
-
-if($conn->connect_error){
-    die("Connection Failed:" .$conn->connect_error);
-
-}
-//Handle form submission
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $phone_number = $_POST["phone-number"];
-    $room_preference = $_POST["room_preference"]; // Added this line for room preference
-
-    //prepare and execute the database insertion
-    $sql = "INSERT INTO `bookings`(`name`, `email`, `phone_number`, `room_preference`)
-     VALUES ('$name','$email','$phone_number','$room_preference')";
-
-     if($conn->query($sql) === TRUE){
-        echo "Booking Successfully";
-        exit();
-     }else{
-        echo "Error: " .$sql . "<br>" .$conn->error; 
-     }
-}
-$conn->close();
-?>
 
 <!DOCTYPE html1>
 <html lang="en">
